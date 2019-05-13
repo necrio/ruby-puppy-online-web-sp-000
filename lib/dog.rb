@@ -14,7 +14,9 @@ end
 # end
 
 def self.all
-  puts @dog.inspect
+  @@all.each dog |dog|
+  puts dog.name
+end
 end
 
 def self.clear_all

@@ -9,9 +9,9 @@ def initialize(dog)
   @@all << self
 end
 
-def dog_name
-
-end
+# def dog_name
+#
+# end
 
 def self.all
   puts @dog.inspect

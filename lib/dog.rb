@@ -10,7 +10,7 @@ def initialize(dog)
 end
 
 def self.all
-  puts @@all.inspect
+  puts @dog.inspect
 end
 
 def self.clear_all
